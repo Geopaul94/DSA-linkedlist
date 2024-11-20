@@ -3,7 +3,7 @@ void main() {
   List<int> digits2 = [4, 3, 2, 1];
   List<int> digits3 = [2,9];
   Solution solution = Solution();
-  solution.plus(digits3);
+  solution.plusOne(digits3);
 }
 
 class Solution {
