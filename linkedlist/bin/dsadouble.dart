@@ -14,7 +14,7 @@ class DoublyLinkedList {
 
   // Add a node to the end of the list
   void append(dynamic data) {
-    var newNode = Node(data);
+    var newNode =Node(data);
     if (head == null) {
       head = newNode;
       tail = newNode;
